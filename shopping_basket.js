@@ -1,12 +1,17 @@
 
 
 var shoppingBasket = {
+
   basket: [],
   addItem: function(item){
     this.basket.unshift(item);
+  },
+
+  removeItem: function(newItem){
+    this.basket.shift(newItem);
   }
 
-
+};
 
 
 
@@ -23,7 +28,7 @@ var shoppingBasket = {
 //   }
 // }
 
-};
+
 
 
 

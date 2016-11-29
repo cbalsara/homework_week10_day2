@@ -13,6 +13,13 @@ describe("shopping basket:", function(){
   })
 })
 
+describe("shopping basket:", function(){
+  it("removed item from shopping basket", function(){
+    shoppingBasket.removeItem("milk");
+    assert.equal(0, shoppingBasket.basket.length);
+  })
+})
+
 
 
 })
