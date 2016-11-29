@@ -1,6 +1,6 @@
 var bread = {
   type: "bread",
-  price: 4.99
+  price: 2.00
 };
 
 module.exports = bread;

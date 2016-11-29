@@ -1,6 +1,6 @@
 var milk = {
   type: "milk",
-  price: 9.95
+  price: 9.00
 };
 
 module.exports = milk;

@@ -35,9 +35,17 @@ describe("shopping basket:", function(){
 describe("shopping basket:", function(){
   it("total cost of items in basket", function(){
     shoppingBasket.addItem(milk);
-    assert.equal( 9.95, shoppingBasket.totalCost() );
+    assert.equal( 9.00, shoppingBasket.totalCost() );
   })
 });
+
+describe("shopping basket:", function(){
+  it("10% discount on basket", function(){
+    shoppingBasket.addItem(milk);
+    shoppingBasket.addItem(bread);
+    assert.equal( 18.00, shoppingBasket.totalCost() );
+  })
+})
 
 
 })
