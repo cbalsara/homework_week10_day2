@@ -1,17 +1,10 @@
-var shoppingBasket = [
-  { type: "Fruit",
-    cost: 9.94
-  },
-  { type: "Bread",
-    cost: 3.23
-  },
-  { type: "Meat",
-    cost: 45.90
-  },
-  { type: "Dairy",
-    cost: 13.33
-  },
-];
+
+
+var shoppingBasket = {
+  basket: [],
+  addItem: function(item){
+    this.basket.push(item);
+  }
 
 
 
@@ -22,12 +15,15 @@ var shoppingBasket = [
 
 
 
-{
-  ["apples", "bread", "meat", "dairy"],
-  cost: 0
+
+// basketCost: function(){
+//   var total = 0;
+//   for (var value of shoppingBasket){
+//     total += value.cost;
+//   }
+// }
+
 };
-
-
 
 
 
