@@ -1,5 +1,5 @@
 
-var milk = require('./milk');
+// var milk = require('./milk');
 
 var shoppingBasket = {
 

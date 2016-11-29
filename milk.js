@@ -1,4 +1,5 @@
 var milk = {
+  type: "milk",
   price: 9.95
 };
 
