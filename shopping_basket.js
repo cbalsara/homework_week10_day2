@@ -3,7 +3,7 @@
 var shoppingBasket = {
   basket: [],
   addItem: function(item){
-    this.basket.push(item);
+    this.basket.unshift(item);
   }
 
 
